@@ -19,6 +19,10 @@ Creates a directory named libgit2, initializes a **.git** directory inside it, p
 
 ## More Commands
 
+> git diff fileName
+
+Shows the differences between the file on your working directory and the staging area
+
 > git show HEAD
 
 The output of this command will display everything the git log command displays for the HEAD commit, plus all the file changes that were committed.
