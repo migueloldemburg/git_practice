@@ -1,31 +1,37 @@
-## Basic Commands
+## Starting a new Git Project
 > git init
 
-Starts a local working directory
+Starts a local Working Directory
 
 > git add file_name
 
-Adds modified and untracked files to the staging area
+Adds modified and untracked files to the Staging Area
 
 > git commit -m "Commit message"
 
 Commits your changes
 
-## Cloning Repositry
+## Cloning Repository to Local
 
 > git clone https://github.com/libgit2/libgit2
 
 Creates a directory named libgit2, initializes a **.git** directory inside it, pulls down all the data for that repository
 
+## Linking Local Git Project to a Github repository
+
+> git remote add origin https://github.com/migueloldemburg/todogoma.git
+
+Links local Git project to a new repository
+
 ## Reseting Files
 
 > git checkout HEAD file_name | git checkout -- file_name
 
-Restores the file in your working directory to look exactly as it did when you last made a commit. Discards changes in the working directory
+Restores the file in your Working Directory to look exactly as it did when you last made a commit. Discards changes in the Working Directory
 
 > git reset HEAD file_name
 
-Resets the file in the staging area to be the same as the HEAD commit. It does not discard file changes from the working directory, it just removes them from the staging area
+Resets the file in the Staging Area to be the same as the HEAD commit. It does not discard file changes from the Working Directory, it just removes them from the Staging Area
 
 > git reset commit_SHA
 
@@ -47,9 +53,9 @@ Switches from one branch to another
 
 > git merge branch_name
 
-Merges *branch_name* into master. *(We must be on the reciever branch)*
+Merges *branch_name* into **master**. *(We must be on the reciever branch)*
 
-> git branch -d branch_name | git branch -D branch_name *if branch_name was never merged*
+> git branch -d branch_name | git branch -D branch_name *-D if branch_name was never merged*
 
 Deletes the branch specified. After the branch has been integrated into master, it has served its purpose and can be deleted
 
@@ -57,12 +63,12 @@ Deletes the branch specified. After the branch has been integrated into master, 
 
 > git diff file_name
 
-Shows the differences between the file on your working directory and the staging area
+Shows the differences between the file on your Working Directory and the Staging Area
 
 > git show HEAD
 
 Shows the most recently made commit
 
-> git add file_name1 file_name2
+> git add file_name1 file_name2 | git add . *(adds all modified and untrack files)*
 
-Adds the files to the staging area together using a single git command. (Shortcut: *git add .*)
+Adds the files to the Staging Area together using a single git command
