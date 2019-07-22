@@ -3,7 +3,7 @@
 
 Starts a local working directory
 
-> git add fileName
+> git add file_name
 
 Adds modified and untracked files to the staging area
 
@@ -19,11 +19,11 @@ Creates a directory named libgit2, initializes a **.git** directory inside it, p
 
 ## Reseting Files
 
-> git checkout HEAD fileName
+> git checkout HEAD file_name
 
-Restores the file in your working directory to look exactly as it did when you last made a commit. Discards changes in the working directory. (often used as *git checkout -- fileName*)
+Restores the file in your working directory to look exactly as it did when you last made a commit. Discards changes in the working directory. (often used as *git checkout -- file_name*)
 
-> git reset HEAD fileName
+> git reset HEAD file_name
 
 Resets the file in the staging area to be the same as the HEAD commit. It does not discard file changes from the working directory, it just removes them from the staging area.
 
@@ -55,7 +55,7 @@ Deletes the branch specified. After the branch has been integrated into master, 
 
 ## More Commands
 
-> git diff fileName
+> git diff file_name
 
 Shows the differences between the file on your working directory and the staging area
 
@@ -63,6 +63,6 @@ Shows the differences between the file on your working directory and the staging
 
 Shows the most recently made commit
 
-> git add fileName1 fileName2
+> git add file_name1 file_name2
 
 Adds the files to the staging area together using a single git command. (Shortcut: *git add .*)
