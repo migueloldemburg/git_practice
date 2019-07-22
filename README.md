@@ -1,6 +1,7 @@
 ## Git Practice
 
 > git init
+
 Starts a local working directory
 
 > git add fileName
