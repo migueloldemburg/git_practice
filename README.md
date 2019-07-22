@@ -25,5 +25,5 @@ Shows the differences between the file on your working directory and the staging
 
 > git show HEAD
 
-The output of this command will display everything the git log command displays for the HEAD commit, plus all the file changes that were committed.
+Shows the most recently made commit
 
