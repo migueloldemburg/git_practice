@@ -4,7 +4,7 @@
 
 Starts a local working directory
 
-> git add fileName
+> git add fileName \n
 Adds modified and untracked files to the staging area
 
 > git commit -m "Commit message"
