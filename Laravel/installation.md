@@ -1,6 +1,6 @@
 # First steps to install Laravel (-V 5.4)
 
-##PRe-Requisites
+## Pre-Requisites
 
 In order to install Laravel you need to:
 
@@ -42,6 +42,9 @@ Make sure to place the **export PATH="$HOME/.composer/vendor/bin:$PATH"**  in yo
 Restart the terminal.
 And initialize a Laravel project.
 > laravel new blog
+
+Alternatively, you may also install Laravel by issuing the Composer create-project command in your terminal:
+> *composer create-project --prefer-dist laravel/laravel blog "5.4.*"*
 
 Run the Laravel server. Enjoy!
 > php artisan serve
