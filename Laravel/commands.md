@@ -27,3 +27,5 @@ This command, in addition to creating the TaskController file, it includes the r
 > php artisan make:model Post -mc
 
 This command creates a model Post, and migration and controller files.
+
+> php artisan make:auth
